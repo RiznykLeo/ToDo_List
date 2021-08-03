@@ -1,0 +1,33 @@
+body{
+    background-color: #F0C987;
+    font-family: monospace;
+}
+#total{
+    font-family: monospace;
+}
+
+.Wrap{
+
+}
+.InputBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#result{
+
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+
+}
+button{
+ font-family: monospace;
+ margin: 10px;
+}
+.li-active{
+    text-decoration: line-through;
+}
