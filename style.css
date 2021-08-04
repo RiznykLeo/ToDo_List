@@ -1,13 +1,23 @@
 body{
     background-color: #F0C987;
     font-family: monospace;
+    margin: 0;
 }
 #total{
     font-family: monospace;
 }
 
-.Wrap{
+header{
+    background-color: #6F8695;
+    height: 50px;
+    position: sticky;
+    top: 0;
 
+}
+.HeaderText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .InputBox{
     display: flex;
