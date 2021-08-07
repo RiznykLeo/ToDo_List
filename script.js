@@ -17,12 +17,14 @@ button.addEventListener('click',(e)=>{
 function createDeleteElements(value){
     const li = document.createElement('li')
     const button = document.createElement('button')
+    const span = document.createElement('span')
     i++
-
+    span.className = 'span_'
+    span.textContent = value
     li.className = 'li'
-    li.textContent = value
-    result.appendChild(li)
 
+    result.appendChild(li)
+    li.appendChild(span)
     button.className = 'button'
     button.textContent = 'Erase'
     li.appendChild(button)
@@ -36,7 +38,7 @@ function createDeleteElements(value){
 
     //Toggle class active
     li.addEventListener('click', e=>{
-        li.classList.toggle('li-active')
+        span.classList.toggle('span-active')
     })
 
     total.textContent = i

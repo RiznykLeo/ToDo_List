@@ -3,41 +3,48 @@ body{
     font-family: monospace;
     margin: 0;
 }
+
 #total{
     font-family: monospace;
 }
 
 header{
     background-color: #6F8695;
-    height: 50px;
+    padding: 10px;
+    font-size: 20px;
     position: sticky;
     top: 0;
-
 }
+
 .HeaderText{
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
+
 .InputBox{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#result{
 
-}
 li{
     display: flex;
     align-items: center;
     justify-content: center;
     list-style-type: none;
-
 }
+
 button{
  font-family: monospace;
  margin: 10px;
 }
-.li-active{
+
+.span-active{
     text-decoration: line-through;
+}
+
+.Wrap {
+    height: 1000px;
 }
